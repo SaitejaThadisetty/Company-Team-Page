@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.heading {
+    text-align: center;
+    /* padding: 20px; */
+    color: #fff;
+    background-color: rgb(221, 115, 195);
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.description{
+    text-align: center;
+}
+
+.dashed-line {
+    width: 400px;
+    border-top: 2px dashed rgb(221, 115, 195);
+    margin: 20px 0;
+    margin-left: 550px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.team{
+    width: 450px;
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.team2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.team-member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.team-member p {
+    margin: 5px 0 0;
+    color: black;
+}
+#role{
+    color: rgb(221, 115, 195);
+}
